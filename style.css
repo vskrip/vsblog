@@ -365,7 +365,11 @@ textarea#comment.form-control {
 .left-content ul li {
 	padding-bottom:5px;
 }
-input#terms.form-control {
+input#terms.form-control,
+input#author.form-control,
+input#email.form-control,
+input#url.form-control
+ {
 	background-color: rgba(39, 86, 144, 0.22);
 	color:#ccc;
 }
@@ -439,10 +443,12 @@ input#terms.form-control {
 	margin-bottom:10px;
 	margin-top:10px;
 }
-.widget_sidebar_main ul li a {
+.widget_sidebar_main ul li a,
+a#cancel-comment-reply-link {
 	color:#75acc2;
 }
-.widget_sidebar_main ul li a:hover {
+.widget_sidebar_main ul li a:hover,
+a#cancel-comment-reply-link:hover {
 	color:#fff;
 }
 .widget_tag_cloud .tagcloud a {
