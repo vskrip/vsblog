@@ -66,13 +66,17 @@ ul.footer-menu {
 	margin-left:-40px;
 }
 .footnote {
-	clear: both;
-	display: block;
-	font-size: 12px;
-	margin: 20px 0 0;
-	text-align: center;
+	clear:both;
+	display:block;
+	font-size:12px;
+	margin:20px 0 0;
+	text-align:center;
 }
-.entry-content code{
+.entry-content pre {
+	background-color:rgba(9, 26, 55, 0.07);
+	border:0;
+}
+.entry-content code {
 	color:rgba(85, 200, 202, 0.84);
 	background-color:rgba(43, 115, 158, 0);
 }
